@@ -13,3 +13,8 @@ Spring 기반의 일정 관리 시스템 API입니다.
 
 ## 📌 API 명세서
 
+
+---
+
+## 📌 ERD
+![schedule-ERD](scheduleERD.png)

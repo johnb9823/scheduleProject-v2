@@ -51,4 +51,4 @@ Spring 기반의 일정 관리 시스템 API입니다.
 ---
 
 ## 📌 ERD
-![schedule ERD](scheduleERD수정.png)
+![schedule ERD](scheduleerd.png)

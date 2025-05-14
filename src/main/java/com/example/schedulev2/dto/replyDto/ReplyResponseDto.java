@@ -9,13 +9,13 @@ import java.time.LocalDateTime;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ReplyResponseDto {
 
-    private String reply;
+    private String content;
     private String writerId;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    public ReplyResponseDto(String reply, String writerId, LocalDateTime createdAt, LocalDateTime updatedAt) {
-        this.reply = reply;
+    public ReplyResponseDto(String content, String writerId, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.content = content;
         this.writerId = writerId;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;

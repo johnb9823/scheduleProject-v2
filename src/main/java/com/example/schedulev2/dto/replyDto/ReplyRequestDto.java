@@ -5,11 +5,13 @@ import lombok.Getter;
 @Getter
 public class ReplyRequestDto {
 
-    private String reply;
+    private String content;
     private String writerId;
+    private Long commentId; // 부모 댓글 ID
 
-    public ReplyRequestDto(String reply, String writerId) {
-        this.reply = reply;
+    public ReplyRequestDto(String content, String writerId, Long commentId) {
+        this.content = content;
         this.writerId = writerId;
+        this.commentId = commentId;
     }
 }

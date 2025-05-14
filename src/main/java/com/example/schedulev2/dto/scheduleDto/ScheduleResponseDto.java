@@ -14,14 +14,16 @@ public class ScheduleResponseDto {
     private String writerId;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+    private Long commentsCount;
 
 
-    public ScheduleResponseDto(String title, String content, String writerId, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public ScheduleResponseDto(String title, String content, String writerId, LocalDateTime createdAt, LocalDateTime updatedAt, Long commentCount) {
         this.title = title;
         this.content = content;
         this.writerId = writerId;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
+        this.commentsCount = commentCount;
     }
 
 }
